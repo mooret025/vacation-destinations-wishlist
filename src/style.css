@@ -1,8 +1,42 @@
-#title {
+body {
 }
 
-#description {
+.form-intro {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  background-color: burlywood;
+}
+
+#title {
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 60px;
+  padding-top: 75px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 30px;
+  padding-bottom: 150px;
+  margin: 0px;
 }
 
 #survey-form {
+  height: fit-content;
+}
+
+label {
+  display: list-item;
+}
+
+input,
+textarea,
+button {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
